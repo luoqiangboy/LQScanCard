@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D510A1121C346B70046A35E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510A1021C346B70046A35E /* AppDelegate.m */; };
+		3D510A1421C346B70046A35E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510A1321C346B70046A35E /* ViewController.m */; };
+		3D510A1721C346B70046A35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D510A1521C346B70046A35E /* Main.storyboard */; };
+		3D510A1921C346B80046A35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D510A1821C346B80046A35E /* Assets.xcassets */; };
+		3D510A1C21C346B80046A35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D510A1A21C346B80046A35E /* LaunchScreen.storyboard */; };
+		3D510A1F21C346B80046A35E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510A1E21C346B80046A35E /* main.m */; };
+		3D510A5221C3495C0046A35E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D510A5121C3495C0046A35E /* icon.png */; };
+		3D510A5521C34CC00046A35E /* LQIDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510A5421C34CC00046A35E /* LQIDCardViewController.m */; };
+		3D510A5821C34CCB0046A35E /* LQBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510A5721C34CCB0046A35E /* LQBankViewController.m */; };
+		3D510AC921C360920046A35E /* LQScanCardORC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D510AAF21C360920046A35E /* LQScanCardORC.bundle */; };
+		3D510ACA21C360920046A35E /* libbexbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D510AB621C360920046A35E /* libbexbankcard.a */; };
+		3D510ACB21C360920046A35E /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D510AB721C360920046A35E /* libexidcardios.a */; };
+		3D510ACC21C360920046A35E /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 3D510AB821C360920046A35E /* zocr0.lib */; };
+		3D510ACD21C360920046A35E /* LQBankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510ABA21C360920046A35E /* LQBankCardSearch.m */; };
+		3D510ACE21C360920046A35E /* LQCardRectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510ABC21C360920046A35E /* LQCardRectTool.m */; };
+		3D510ACF21C360920046A35E /* LQScanBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510ABE21C360920046A35E /* LQScanBase.m */; };
+		3D510AD021C360920046A35E /* LQScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AC021C360920046A35E /* LQScaningView.m */; };
+		3D510AD121C360920046A35E /* LQScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AC221C360920046A35E /* LQScanManager.m */; };
+		3D510AD221C360920046A35E /* LQScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AC421C360920046A35E /* LQScanViewController.m */; };
+		3D510AD321C360920046A35E /* UIAlertController+LQExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AC621C360920046A35E /* UIAlertController+LQExtend.m */; };
+		3D510AD421C360920046A35E /* UIImage+LQExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AC821C360920046A35E /* UIImage+LQExtend.m */; };
+		3D510AD721C367760046A35E /* LQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D510AD621C367760046A35E /* LQBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D510A0C21C346B70046A35E /* LQScanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQScanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D510A0F21C346B70046A35E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D510A1021C346B70046A35E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D510A1221C346B70046A35E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D510A1321C346B70046A35E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D510A1621C346B70046A35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D510A1821C346B80046A35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D510A1B21C346B80046A35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D510A1D21C346B80046A35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D510A1E21C346B80046A35E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D510A5121C3495C0046A35E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3D510A5321C34CC00046A35E /* LQIDCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQIDCardViewController.h; sourceTree = "<group>"; };
+		3D510A5421C34CC00046A35E /* LQIDCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQIDCardViewController.m; sourceTree = "<group>"; };
+		3D510A5621C34CCB0046A35E /* LQBankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBankViewController.h; sourceTree = "<group>"; };
+		3D510A5721C34CCB0046A35E /* LQBankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBankViewController.m; sourceTree = "<group>"; };
+		3D510AAF21C360920046A35E /* LQScanCardORC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LQScanCardORC.bundle; sourceTree = "<group>"; };
+		3D510AB221C360920046A35E /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		3D510AB321C360920046A35E /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		3D510AB421C360920046A35E /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		3D510AB521C360920046A35E /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		3D510AB621C360920046A35E /* libbexbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
+		3D510AB721C360920046A35E /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		3D510AB821C360920046A35E /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		3D510AB921C360920046A35E /* LQBankCardSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQBankCardSearch.h; sourceTree = "<group>"; };
+		3D510ABA21C360920046A35E /* LQBankCardSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQBankCardSearch.m; sourceTree = "<group>"; };
+		3D510ABB21C360920046A35E /* LQCardRectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQCardRectTool.h; sourceTree = "<group>"; };
+		3D510ABC21C360920046A35E /* LQCardRectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQCardRectTool.m; sourceTree = "<group>"; };
+		3D510ABD21C360920046A35E /* LQScanBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScanBase.h; sourceTree = "<group>"; };
+		3D510ABE21C360920046A35E /* LQScanBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScanBase.m; sourceTree = "<group>"; };
+		3D510ABF21C360920046A35E /* LQScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScaningView.h; sourceTree = "<group>"; };
+		3D510AC021C360920046A35E /* LQScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScaningView.m; sourceTree = "<group>"; };
+		3D510AC121C360920046A35E /* LQScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScanManager.h; sourceTree = "<group>"; };
+		3D510AC221C360920046A35E /* LQScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScanManager.m; sourceTree = "<group>"; };
+		3D510AC321C360920046A35E /* LQScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQScanViewController.h; sourceTree = "<group>"; };
+		3D510AC421C360920046A35E /* LQScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQScanViewController.m; sourceTree = "<group>"; };
+		3D510AC521C360920046A35E /* UIAlertController+LQExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+LQExtend.h"; sourceTree = "<group>"; };
+		3D510AC621C360920046A35E /* UIAlertController+LQExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+LQExtend.m"; sourceTree = "<group>"; };
+		3D510AC721C360920046A35E /* UIImage+LQExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LQExtend.h"; sourceTree = "<group>"; };
+		3D510AC821C360920046A35E /* UIImage+LQExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LQExtend.m"; sourceTree = "<group>"; };
+		3D510AD521C367760046A35E /* LQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQBaseViewController.h; sourceTree = "<group>"; };
+		3D510AD621C367760046A35E /* LQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D510A0921C346B70046A35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D510ACA21C360920046A35E /* libbexbankcard.a in Frameworks */,
+				3D510ACB21C360920046A35E /* libexidcardios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D510A0321C346B70046A35E = {
+			isa = PBXGroup;
+			children = (
+				3D510A0E21C346B70046A35E /* LQScanCard */,
+				3D510A0D21C346B70046A35E /* Products */,
+				3D510A5C21C35AE70046A35E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D510A0D21C346B70046A35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D510A0C21C346B70046A35E /* LQScanCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D510A0E21C346B70046A35E /* LQScanCard */ = {
+			isa = PBXGroup;
+			children = (
+				3D510AAD21C360920046A35E /* LQScanCardORC */,
+				3D510A0F21C346B70046A35E /* AppDelegate.h */,
+				3D510A1021C346B70046A35E /* AppDelegate.m */,
+				3D510A1221C346B70046A35E /* ViewController.h */,
+				3D510A1321C346B70046A35E /* ViewController.m */,
+				3D510A5321C34CC00046A35E /* LQIDCardViewController.h */,
+				3D510A5421C34CC00046A35E /* LQIDCardViewController.m */,
+				3D510A5621C34CCB0046A35E /* LQBankViewController.h */,
+				3D510A5721C34CCB0046A35E /* LQBankViewController.m */,
+				3D510AD521C367760046A35E /* LQBaseViewController.h */,
+				3D510AD621C367760046A35E /* LQBaseViewController.m */,
+				3D510A1521C346B70046A35E /* Main.storyboard */,
+				3D510A1821C346B80046A35E /* Assets.xcassets */,
+				3D510A1A21C346B80046A35E /* LaunchScreen.storyboard */,
+				3D510A1D21C346B80046A35E /* Info.plist */,
+				3D510A1E21C346B80046A35E /* main.m */,
+				3D510A5121C3495C0046A35E /* icon.png */,
+			);
+			path = LQScanCard;
+			sourceTree = "<group>";
+		};
+		3D510A5C21C35AE70046A35E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D510AAD21C360920046A35E /* LQScanCardORC */ = {
+			isa = PBXGroup;
+			children = (
+				3D510AAE21C360920046A35E /* Assets */,
+				3D510AB021C360920046A35E /* Classes */,
+			);
+			path = LQScanCardORC;
+			sourceTree = "<group>";
+		};
+		3D510AAE21C360920046A35E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3D510AAF21C360920046A35E /* LQScanCardORC.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3D510AB021C360920046A35E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D510AB121C360920046A35E /* Core */,
+				3D510AB921C360920046A35E /* LQBankCardSearch.h */,
+				3D510ABA21C360920046A35E /* LQBankCardSearch.m */,
+				3D510ABB21C360920046A35E /* LQCardRectTool.h */,
+				3D510ABC21C360920046A35E /* LQCardRectTool.m */,
+				3D510ABD21C360920046A35E /* LQScanBase.h */,
+				3D510ABE21C360920046A35E /* LQScanBase.m */,
+				3D510ABF21C360920046A35E /* LQScaningView.h */,
+				3D510AC021C360920046A35E /* LQScaningView.m */,
+				3D510AC121C360920046A35E /* LQScanManager.h */,
+				3D510AC221C360920046A35E /* LQScanManager.m */,
+				3D510AC321C360920046A35E /* LQScanViewController.h */,
+				3D510AC421C360920046A35E /* LQScanViewController.m */,
+				3D510AC521C360920046A35E /* UIAlertController+LQExtend.h */,
+				3D510AC621C360920046A35E /* UIAlertController+LQExtend.m */,
+				3D510AC721C360920046A35E /* UIImage+LQExtend.h */,
+				3D510AC821C360920046A35E /* UIImage+LQExtend.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D510AB121C360920046A35E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D510AB221C360920046A35E /* BankCard.h */,
+				3D510AB321C360920046A35E /* commondef.h */,
+				3D510AB421C360920046A35E /* exbankcard.h */,
+				3D510AB521C360920046A35E /* excards.h */,
+				3D510AB621C360920046A35E /* libbexbankcard.a */,
+				3D510AB721C360920046A35E /* libexidcardios.a */,
+				3D510AB821C360920046A35E /* zocr0.lib */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D510A0B21C346B70046A35E /* LQScanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D510A2221C346B80046A35E /* Build configuration list for PBXNativeTarget "LQScanCard" */;
+			buildPhases = (
+				3D510A0821C346B70046A35E /* Sources */,
+				3D510A0921C346B70046A35E /* Frameworks */,
+				3D510A0A21C346B70046A35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQScanCard;
+			productName = LQScanCard;
+			productReference = 3D510A0C21C346B70046A35E /* LQScanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D510A0421C346B70046A35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LQ;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Sniper;
+				TargetAttributes = {
+					3D510A0B21C346B70046A35E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D510A0721C346B70046A35E /* Build configuration list for PBXProject "LQScanCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D510A0321C346B70046A35E;
+			productRefGroup = 3D510A0D21C346B70046A35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D510A0B21C346B70046A35E /* LQScanCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D510A0A21C346B70046A35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D510A1C21C346B80046A35E /* LaunchScreen.storyboard in Resources */,
+				3D510A5221C3495C0046A35E /* icon.png in Resources */,
+				3D510AC921C360920046A35E /* LQScanCardORC.bundle in Resources */,
+				3D510A1921C346B80046A35E /* Assets.xcassets in Resources */,
+				3D510ACC21C360920046A35E /* zocr0.lib in Resources */,
+				3D510A1721C346B70046A35E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D510A0821C346B70046A35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D510ACD21C360920046A35E /* LQBankCardSearch.m in Sources */,
+				3D510AD321C360920046A35E /* UIAlertController+LQExtend.m in Sources */,
+				3D510AD121C360920046A35E /* LQScanManager.m in Sources */,
+				3D510AD021C360920046A35E /* LQScaningView.m in Sources */,
+				3D510ACE21C360920046A35E /* LQCardRectTool.m in Sources */,
+				3D510A1421C346B70046A35E /* ViewController.m in Sources */,
+				3D510A5821C34CCB0046A35E /* LQBankViewController.m in Sources */,
+				3D510ACF21C360920046A35E /* LQScanBase.m in Sources */,
+				3D510AD721C367760046A35E /* LQBaseViewController.m in Sources */,
+				3D510A1F21C346B80046A35E /* main.m in Sources */,
+				3D510A1121C346B70046A35E /* AppDelegate.m in Sources */,
+				3D510A5521C34CC00046A35E /* LQIDCardViewController.m in Sources */,
+				3D510AD221C360920046A35E /* LQScanViewController.m in Sources */,
+				3D510AD421C360920046A35E /* UIImage+LQExtend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D510A1521C346B70046A35E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D510A1621C346B70046A35E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D510A1A21C346B80046A35E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D510A1B21C346B80046A35E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D510A2021C346B80046A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D510A2121C346B80046A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D510A2321C346B80046A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88HUJZ3BXV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LQScanCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQScanCard/LQScanCard/Lib",
+					"$(PROJECT_DIR)/LQScanCard/LQScanCardORC/Classes/Core",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LQScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D510A2421C346B80046A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88HUJZ3BXV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LQScanCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQScanCard/LQScanCard/Lib",
+					"$(PROJECT_DIR)/LQScanCard/LQScanCardORC/Classes/Core",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LQScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D510A0721C346B70046A35E /* Build configuration list for PBXProject "LQScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D510A2021C346B80046A35E /* Debug */,
+				3D510A2121C346B80046A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D510A2221C346B80046A35E /* Build configuration list for PBXNativeTarget "LQScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D510A2321C346B80046A35E /* Debug */,
+				3D510A2421C346B80046A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D510A0421C346B70046A35E /* Project object */;
+}
